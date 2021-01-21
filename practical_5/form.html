@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+        <style>
+            .container {
+                width: 200px;
+            
+            }
+
+             .container input,select {
+            width: 100%;
+            
+            } 
+    
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="faname">Father name:</label>
+                <input type="text" id="faname" name="faname" required><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                <label for="mobilenum">Mobile:</label>
+                <input type="number" id="mobilenum" name="mobilenum" required><br><br>
+                <label for="hs">High School</label>
+                <input type="text" id="hs" name="hs"><br><br>
+                <label for="padress">Permanent address</label>
+                <input type="text" id="padress" name="padress"><br><br>
+                <label for="level">Your level</label>
+                <select required>
+                    <option value="1year">1<sup>st</sup>year</option>
+                    <option value="2year">2<sup>nd</sup>year</option>
+                    <option value="3year">3<sup>rd</sup>year</option>
+                    <option value="4year">4<sup>th</sup>year</option>
+                </select><br><br>
+                <label for="mail">Mail id</label>
+                <input type="email" id="mail" name="mail" required><br><br>
+                <label for="deg">Degree</label>
+                <select>
+                    <option value="1year">B.Tech</option>
+                    <option value="2year">B.Sc</option>
+                    <option value="3year">B.com</option>
+                    <option value="4year">B.Arc</option>
+                </select><br><br>
+                <button type="submit">Register</button>
+            </form>
+    </div>
+    </body>
+</html>
