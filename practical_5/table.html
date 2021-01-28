@@ -4,66 +4,73 @@
         <meta charset="utf-8">
         <title>Table</title>
         <style>
-            table, th, td {
+            table, th, td,caption {
               border: 1px solid black;
             }
             </style>
     </head>
     <body>
         <table>
-            <tr>
-                <td>
-                    <form>
-                        <label for="name">Name</label>
-                    </form>
-                </td>
-                <td>
-                    <form>
-                       <br> <input type="text" id="name" name="name" required><br><br>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="toppings">Pizza Toppings</label>
-                </td>
-                <td>
-                    <from>
-                        <input type="radio" id="supreme" name="supreme" value="supreme">
-                        <label for="supreme">Supreme</label><br>
-                        <input type="radio" id="vegetarian" name="taste" value="vegetarian">
-                        <label for="vegetarian">Vegetarian</label><br>
-                        <input type="radio" id="hawaiian" name="taste" value="hawaiian">
-                        <label for="hawaiian">Hawaiian</label>
-                    </from>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="toppings">Pizza Toppings</label>
-                </td>
-                <td>
-                    <form>
-                        <select>
-                            <option value="tamota">tamota</option>
-                            <option value="chilly">chilly</option>
-                        </select>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <p>Dilvery Instructions:</p>
-                    <dialog>
-
-                    </dialog>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <button type="submit">Send me order</button>
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <caption>Pizza Shop 2.0</caption>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <form>
+                            <label for="name">Name</label>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                        <br> <input type="text" id="name" name="name" required><br><br>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="toppings">Pizza Toppings</label>
+                    </td>
+                    <td>
+                        <from>
+                            <input type="radio" id="supreme" name="supreme" value="supreme">
+                            <label for="supreme">Supreme</label><br>
+                            <input type="radio" id="vegetarian" name="taste" value="vegetarian">
+                            <label for="vegetarian">Vegetarian</label><br>
+                            <input type="radio" id="hawaiian" name="taste" value="hawaiian">
+                            <label for="hawaiian">Hawaiian</label>
+                        </from>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="toppings">Pizza Toppings</label>
+                    </td>
+                    <td>
+                        <form>
+                            <select>
+                                <option value="tamota">tamota</option>
+                                <option value="chilly">chilly</option>
+                            </select>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Dilvery Instructions:</p>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Send me order</button>
+                    </td>
+                </tr>
+            </tfoot>
         </table>
     </body>
 </html>
