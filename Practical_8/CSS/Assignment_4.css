@@ -1,0 +1,91 @@
+li{
+    display: inline;
+    padding:10px 10px;
+    font-size: 20px;
+  
+}
+li a{    
+    text-decoration:none ;
+}
+.l1{
+    color: rgb(197, 12, 12);
+    font-size: 40px;
+    margin: 0px;
+}
+.l2{
+    margin-left: 70px;
+    right: 25px;
+    position:absolute;
+}   
+
+.inp{
+    background-color: yellowgreen;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.key{
+    padding:5px;
+    border-radius: 5px;
+}
+.loc{
+    padding:5px;
+    border-radius: 5px;
+}
+.ran{
+    padding:5px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+.se{
+    padding:5px;
+    border-radius: 5px;            
+}
+.icons .ic{
+    display: inline;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.icons{
+    margin-left: 15%;
+    margin-top: 10%;
+    text-align: center;
+    display: inline;
+    border:  black ;
+}
+.icons .p1{
+    font-size: 30px;
+}
+.img,.img1,.img2,.img3{
+    padding: 15px;
+}
+.banner{
+    text-align: center;
+    border-style: dashed;
+    border-color: gray;
+    padding: 30px;
+    width: 50%;
+    height: 80px;
+    margin-left:20% ;
+    background-color: rgb(228, 222, 222);
+}
+.fc .cards{
+    width: 100px;
+    display: inline;
+}
+.main{
+    margin: 100px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: gray;
+    padding: 40px;
+    
+}
+img{
+    padding: 20px;
+    background-color: white;
+    width: fit-content;
+}

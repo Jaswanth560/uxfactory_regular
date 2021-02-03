@@ -1,0 +1,45 @@
+     li{
+    display: inline;
+    padding:10px 10px;
+    font-size: 20px;
+  
+}
+li a{    
+    text-decoration:none ;
+}
+.l1{
+    color: rgb(197, 12, 12);
+    font-size: 40px;
+    margin: 0px;
+}
+
+.main{
+    margin: 100px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: gray;
+    padding: 40px;
+    
+}
+img{
+    padding: 20px;
+    background-color: white;
+    width: fit-content;
+}
+.fc .cards{
+    width: 100px;
+    display: inline;
+}
+.container .col{
+    display: inline;
+    float: left;
+    width: 33%;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 1px solid white;
+}
