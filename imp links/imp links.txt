@@ -3,3 +3,8 @@ stylecss.org
 https://developer.mozilla.org/en-US/docs/Web/CSS/position
 https://developer.mozilla.org/en-us/docs/Web/CSS/overflow
 https://flukeout.github.io/
+https://cssgenerator.org/box-shadow-css-generator.html
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+https://www.cssportal.com/css-3d-transform-generator/
+https://animista.net/play/basic/rotate-scale
+https://www.theappguruz.com/tsag-tools/web/CSSAnimations/
